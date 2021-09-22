@@ -1,0 +1,23 @@
+html {
+	color: #fff;
+	line-height: 150%;
+}
+
+header {
+	border:1px solid #fff; 
+	background-color:rgba(225,225,225,0.3);
+	color:rgba(225,225,225,1);
+}
+
+body {
+	background-image:url('background.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+footer {
+		text-align:center;
+		color:#FFFFFF;
+		font-size:10px;
+}
