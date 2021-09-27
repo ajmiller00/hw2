@@ -6,7 +6,6 @@ html {
 	margin-bottom: 100px;
 	margin-top: 50px;
 	font-family: Optima, sans-serif;
-	font-size: 30px;
 }
 
 header {
@@ -20,6 +19,7 @@ body {
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	background-size:cover;
+	font-size: 20px;
 }
 
 footer {
