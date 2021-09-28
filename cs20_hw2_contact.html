@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href=style.css>
+	<meta name=‘viewport’ content=“width=device-width, initial-scale=1”>
+	<meta charset"utf-8">
+	<title> Instrument Donation Drive Contact </title>
+	<style>
+		.grid-container {
+			    display: grid;
+			    grid-template-columns: 1fr 1fr;
+			    grid-gap: 20px;
+		}
+		header {
+			margin-right: 50px;
+			margin-left: 50px;
+			margin-bottom: 50px;
+		}
+		h2 {
+			font-size: x-large;
+		}
+		h3 {
+			font-size: 30px;
+			font-style: italic;
+		}
+		.nav li {
+			display: inline-block; 
+			font-size: 20px; 
+			padding: 5px 20px 5px 20px; 
+			margin: 5px;
+			margin-bottom: 25px;
+			box-sizing:border-box;
+			border: 1px solid #000; 
+			color: #000
+		}
+		
+		.nav li:hover {
+			border: 1px solid #000; 
+			color: #000; 
+			background-color:rgba(225,225,225,0.5);
+		}
+		
+		.nav li a {
+			text-decoration: none; 
+			color: inherit
+		}
+
+	</style>
+</head>
+
+<body>
+	<header> 
+		<h1 align="center" font-size="small"> Boston Area Instrument Donation Drive </h1>
+		<h2 align="center"> Gift the joy of music... </h2>
+	</header>
+	<nav>
+		<ul align="center" class="nav">
+			<li><a href="cs20_hw2.html">Home</a></li> 
+			<li><a href="cs20_hw2_contact.html">Contact</a></li> 
+			<li><a href="cs20_hw2_services.html">Services</a></li>
+		</ul>
+	</nav>
+
+	<article>
+		<div class='grid-container'>
+			<div class='grid-child-1'>
+				<h3 align="center"> Meet the Founder Abigail </h3>
+					<p align="center"> I am currently a student at Tufts University, and grew up in Newton, MA. I have been playing saxophone since the fourth grade, and have loved it since the day I started.  Helping kids get the chance to enjoy music as much as I do is something very near to my heart. By collecting instruments to donate, it is my hope that others will have the opportunity to share the same joy in music. </p>
+				<br>
+			</div>
+			<div class='grid-child-2'>
+				<h3 align="center"> Contact For All Services </h3>
+				<form method="get" style="text-align: center;">
+					Name: <input type="text" name='name' required='1'><br>
+					Email: <input type="text" name="email" required="1"><br>
+					Phone number: <input type="text" name="phone" required="1"><br>
+					Request: <select name="request"> 
+						<option value="Contactless Pickup">Contactless pick up (provide time & location below)</option>
+						<option value="Exchange at neutral location"> Meet @ neutral location (provide time & location below)</option>
+						<option value="Monetary donation"> Monetary Donation</option>
+						<option value="Drop-off at a collection point"> Drop @ Newton Free Library collection point</option>
+						<option value="Drop-off at a collection point"> Drop @ Somerville Public Library collection point</option>
+						<option value="Drop-off at a collection point"> Drop @ Jamaica Plain Public Library collection point</option>
+						<option value="other"> Other (explain below)</option>
+					</select> <br>
+					Other information: <input type="text" name="other"> <br>
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+		</section>
+	</article>
+
+	<footer>
+		<p> Website created and designed by Abigail Miller </p>
+	</footer>
+</body>
+</html>
